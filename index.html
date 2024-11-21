@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de CSS</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Estilos generales */
+        body {
+            background-color: #f4f4f4; /* Fondo general */
+            color: #333; /* Color del texto */
+            font-family: 'Arial', sans-serif; /* Fuente general */
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Colores y fondos */
+        h1 {
+            color: #ff5733; /* Color del título */
+            text-align: center;
+            text-transform: uppercase; /* Mayúsculas */
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Sombra de texto */
+            margin-top: 20px;
+        }
+
+        p {
+            background-color: #e0e0e0; /* Fondo de párrafo */
+            padding: 10px;
+            border-radius: 5px; /* Bordes redondeados */
+            margin: 20px;
+        }
+
+        /* Bordes y sombras */
+        .box {
+            border: 2px solid #007bff; /* Borde */
+            padding: 20px;
+            margin: 20px;
+            box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2); /* Sombra */
+            border-radius: 10px; /* Bordes redondeados */
+            background-color: #fff;
+        }
+
+        /* Botones personalizados */
+        button {
+            background-color: #28a745; /* Fondo del botón */
+            color: #fff; /* Color del texto */
+            border: none; /* Sin borde */
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer; /* Cambia el cursor al pasar */
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #218838; /* Cambio de color al pasar el ratón */
+        }
+
+        /* Flexbox */
+        .container {
+            display: flex;
+            justify-content: center; /* Centrar horizontalmente */
+            align-items: center; /* Centrar verticalmente */
+            height: 100vh; /* Altura total de la ventana */
+            background-color: #f0f0f0;
+        }
+
+        .item {
+            margin: 10px;
+            padding: 20px;
+            background-color: #007bff;
+            color: #fff;
+            border-radius: 5px;
+        }
+
+        /* Transiciones y animaciones */
+        .animated-box {
+            width: 100px;
+            height: 100px;
+            background-color: #ff5733;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+            margin: 20px auto;
+        }
+
+        .animated-box:hover {
+            transform: scale(1.2); /* Agranda el elemento */
+            background-color: #c70039; /* Cambia el color */
+        }
+    </style>
+</head>
+<body>
+    <h1>Ejemplo de Estilos CSS</h1>
+
+    <!-- Colores y fondos -->
+    <p>Este es un párrafo con fondo y bordes redondeados.</p>
+
+    <!-- Bordes y sombras -->
+    <div class="box">Este es un cuadro con bordes y sombra.</div>
+
+    <!-- Botones personalizados -->
+    <button>Haz clic aquí</button>
+
+    <!-- Flexbox -->
+    <div class="container">
+        <div class="item">Elemento 1</div>
+        <div class="item">Elemento 2</div>
+        <div class="item">Elemento 3</div>
+    </div>
+
+    <!-- Transiciones y animaciones -->
+    <div class="animated-box"></div>
+</body>
+</html>
+
+
+
+
+
+
